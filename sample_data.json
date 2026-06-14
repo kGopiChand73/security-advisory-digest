@@ -1,0 +1,28 @@
+{
+  "advisories": [
+    {
+      "source": "GitHub Security Advisory",
+      "advisory_id": "GHSA-xxxx-xxxx-xxxx",
+      "package": "requests",
+      "severity": "High",
+      "description": "Example vulnerability in requests package.",
+      "recommendation": "Upgrade to the latest secure version."
+    },
+    {
+      "source": "NVD",
+      "cve_id": "CVE-2025-12345",
+      "package": "flask",
+      "severity": "Critical",
+      "description": "Example remote code execution vulnerability.",
+      "recommendation": "Update Flask and apply security patches."
+    },
+    {
+      "source": "CISA KEV",
+      "cve_id": "CVE-2025-67890",
+      "package": "django",
+      "severity": "High",
+      "description": "Known exploited vulnerability.",
+      "recommendation": "Patch immediately."
+    }
+  ]
+}
