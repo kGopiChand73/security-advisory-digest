@@ -14,11 +14,10 @@ declared tech stack using **RAG**, and produces a short Markdown report
 listing **only the items that matter** to the team.
 
 ## 2. Team
-Role	Member
-UI / Streamlit	GUNJARA KEERTHANA
-Backend / pipeline	IRIKIREDDY NAVYA SRI
-LLM / prompts	KALABAI GOPI CHAND
-Docs / tests / video	KAVETI NAVYA DEEPTHI
+GUNJARA KEERTHANA
+IRIKIREDDY NAVYA SREE
+KALABAI GOPI CHAND
+KAVETI NAVYA DEEPTHI
 
 
 ## 3. Features implemented
