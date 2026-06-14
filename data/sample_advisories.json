@@ -1,0 +1,52 @@
+[
+  {
+    "id": "CVE-2021-44228",
+    "source": "nvd",
+    "title": "Apache Log4j2 JNDI features do not protect against attacker controlled LDAP endpoints",
+    "description": "Apache Log4j2 versions 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12.3, and 2.3.1) JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default.",
+    "severity": "CRITICAL",
+    "published": "2021-12-10",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-44228",
+    "affected_products": ["log4j", "log4j-core", "apache"]
+  },
+  {
+    "id": "GHSA-jfh8-c2jp-5v3q",
+    "source": "github",
+    "title": "Remote code execution in Log4j 2 via JNDI lookup substitution",
+    "description": "Log4j2 <=2.14.1 JNDI features do not protect against attacker controlled LDAP and other JNDI related endpoints. Upgrade to log4j-core 2.17.1.",
+    "severity": "CRITICAL",
+    "published": "2021-12-10",
+    "url": "https://github.com/advisories/GHSA-jfh8-c2jp-5v3q",
+    "affected_products": ["log4j-core"]
+  },
+  {
+    "id": "CVE-2024-23896",
+    "source": "nvd",
+    "title": "SQL injection in Django admin search",
+    "description": "Django 4.2 versions before 4.2.13 contain a SQL injection vulnerability in the admin queryset filter when handling specially crafted parameters. Upgrade to Django 4.2.13 or later.",
+    "severity": "HIGH",
+    "published": "2026-06-10",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-23896",
+    "affected_products": ["django"]
+  },
+  {
+    "id": "CVE-2024-9999",
+    "source": "nvd",
+    "title": "WordPress plugin XSS vulnerability",
+    "description": "Cross-site scripting in a WordPress plugin allows authenticated users to inject arbitrary JavaScript into post content. Not relevant to non-WordPress sites.",
+    "severity": "MEDIUM",
+    "published": "2026-06-11",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-9999",
+    "affected_products": ["wordpress"]
+  },
+  {
+    "id": "CVE-2024-1111",
+    "source": "cisa",
+    "title": "nginx HTTP request smuggling vulnerability",
+    "description": "nginx 1.20-1.24 incorrectly handles malformed HTTP/1.1 requests, allowing request smuggling attacks. Upgrade to nginx 1.24.1.",
+    "severity": "HIGH",
+    "published": "2026-06-12",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-1111",
+    "affected_products": ["nginx"]
+  }
+]

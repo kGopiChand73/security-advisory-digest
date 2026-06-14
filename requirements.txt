@@ -1,0 +1,12 @@
+# The CORE pipeline runs with ZERO external dependencies (Python stdlib only).
+# Install the packages below ONLY for the optional features:
+
+# Streamlit web UI (recommended for the demo)
+streamlit>=1.30.0
+
+# Optional LLM providers — install ONE if you want a real LLM judge
+# google-generativeai>=0.7.0   # for LLM_PROVIDER=gemini  (free tier available)
+# openai>=1.30.0               # for LLM_PROVIDER=openai
+
+# Optional: pytest for nicer test output (tests also run with stdlib unittest)
+# pytest>=8.0.0

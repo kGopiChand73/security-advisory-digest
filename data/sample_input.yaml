@@ -1,0 +1,34 @@
+# Sample tech stack used by tests and demo.
+# Replace the entries with your team's real stack to get more relevant matches.
+
+languages:
+  - name: python
+    version: "3.11"
+  - name: nodejs
+    version: "18"
+  - name: java
+    version: "17"
+
+frameworks:
+  - name: django
+    version: "4.2"
+  - name: react
+    version: "18.2"
+  - name: spring-boot
+    version: "3.1"
+
+infrastructure:
+  - name: nginx
+    version: "1.24"
+  - name: postgresql
+    version: "15"
+  - name: kubernetes
+    version: "1.28"
+
+libraries:
+  - name: log4j
+    version: "2.20"
+  - name: openssl
+    version: "3.0"
+  - name: requests
+    version: "2.31"
