@@ -13,9 +13,13 @@ stack. This PoC pulls 3 public feeds, matches advisories against a
 declared tech stack using **RAG**, and produces a short Markdown report
 listing **only the items that matter** to the team.
 
-## 2. Team
+## 2. Team Name
 
+Infinite CyberSentinels
 
+ TEAM:
+
+ 
 | Role | Member |
 |------|--------|
 | UI / Streamlit | GUNJARA KEERTHANA |
