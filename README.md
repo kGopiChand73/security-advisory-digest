@@ -15,12 +15,11 @@ listing **only the items that matter** to the team.
 
 ## 2. Team
 
-| Role | Member |
-|---|---|
-| UI / Streamlit | _Student 1_ |
-| Backend / pipeline | _Student 2_ |
-| LLM / prompts | _Student 3_ |
-| Docs / tests / video | _Student 4_ |
+GUNJARA KEERTHANA
+IRIKIREDDY NAVYA SRI
+KALABAI GOPI CHAND
+KAVETI NAVYA DEEPTHI
+
 
 ## 3. Features implemented
 
@@ -188,7 +187,7 @@ pytest tests/ -v
 
 ## 12. Demo video
 
-🎥 _Demo video link will be added here after recording._
+🎥 https://drive.google.com/file/d/1bUh97kpvs07T71B81M_rIOyZJVEU0Juk/view?usp=drivesdk
 
 ## 13. Demo script (5-7 min)
 
