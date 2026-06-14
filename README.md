@@ -17,7 +17,7 @@ listing **only the items that matter** to the team.
 
 Infinite CyberSentinels
 
- TEAM:
+## 3.Team
 
  
 | Role | Member |
@@ -27,7 +27,7 @@ Infinite CyberSentinels
 | LLM / Prompt Engineering | KALABAI GOPI CHAND |
 | Docs / Tests / Video | KAVETI NAVA DEEPTHI |
 
-## 3. Features implemented
+## 4. Features implemented
 
 - ✅ Pulls **3 public feeds**: GitHub Security Advisories, NVD (NIST), CISA KEV
 - ✅ Loads tech inventory from **`stack.yaml`**
@@ -38,7 +38,7 @@ Infinite CyberSentinels
 - ✅ Pytest / unittest happy-path tests with offline fixtures
 - ✅ Zero-dependency core (stdlib only); Streamlit and LLM clients are optional
 
-## 4. Architecture
+## 5. Architecture
 
 ```
             ┌─────────────────────────────┐
@@ -63,7 +63,7 @@ Infinite CyberSentinels
                   outputs/digest.json (download)
 ```
 
-## 5. Tech stack
+## 6. Tech stack
 
 | Concern | Tool |
 |---|---|
@@ -75,7 +75,7 @@ Infinite CyberSentinels
 | Tests | `unittest` (stdlib) — also pytest-compatible |
 | Output | Markdown + JSON |
 
-## 6. Folder structure
+## 7. Folder structure
 
 ```
 security-advisory-digest/
@@ -104,7 +104,7 @@ security-advisory-digest/
     └── output/               Markdown writer
 ```
 
-## 7. Setup
+## 8. Setup
 
 ```powershell
 # 1. Clone & enter project
@@ -134,7 +134,7 @@ pip install -r requirements.txt
    GEMINI_MODEL=gemini-1.5-flash
    ```
 
-## 8. Run instructions
+## 9. Run instructions
 
 ### A) Streamlit UI (recommended for the demo)
 
@@ -160,7 +160,7 @@ python -m unittest discover -s tests -v
 pytest tests/ -v
 ```
 
-## 9. Sample input & output
+## 10. Sample input & output
 
 | File | Description |
 |---|---|
@@ -168,7 +168,7 @@ pytest tests/ -v
 | [data/sample_advisories.json](data/sample_advisories.json) | Offline advisory fixture |
 | [outputs/sample_output.md](outputs/sample_output.md) | Example generated digest |
 
-## 10. AI capability demonstrated
+## 11. AI capability demonstrated
 
 1. **External API integration** — pulls live data from 3 public security APIs.
 2. **RAG** — TF-IDF retrieval over fetched advisories per stack item.
@@ -177,7 +177,7 @@ pytest tests/ -v
 4. **Agent loop** — the app **decides** what to do at each step:
    *fetch → index → retrieve → judge → filter → write*.
 
-## 11. Assumptions and limitations
+## 12. Assumptions and limitations
 
 - **Live feed availability** — the 3 public feeds must be reachable. The
   app degrades gracefully if one feed fails (warns + continues).
@@ -191,11 +191,11 @@ pytest tests/ -v
 - **English-only** advisory text is assumed.
 - **Daily run** — designed for a single execution per day; no scheduling.
 
-## 12. Demo video
+## 13. Demo video
 
 🎥 https://drive.google.com/file/d/1bUh97kpvs07T71B81M_rIOyZJVEU0Juk/view?usp=drivesdk
 
-## 13. Demo script (5-7 min)
+## 14. Demo script (5-7 min)
 
 1. Show the **problem** (open NVD homepage, scroll firehose of CVEs).
 2. Open `stack.yaml` — *"this is what our team uses"*.
@@ -207,7 +207,7 @@ pytest tests/ -v
 8. Walk through the architecture diagram in this README.
 9. Run `python -m unittest discover tests` — show green tests.
 
-## 14. License
+## 15. License
 
 MIT (or as required by your submission guidelines).
 
